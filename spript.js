@@ -1,4 +1,4 @@
-
+// encabezado
 
 function mostrarDato() {
     
