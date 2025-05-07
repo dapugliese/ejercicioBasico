@@ -1,13 +1,21 @@
 // encabezado
 
 function mostrarDato() {
+    var input = document.getElementById("inputDato");
+    var parrafo = document.getElementById("resultado");
+    var total = document.getElementById("total");
+    parrafo.innerText +=  "El dato ingresado es: " + input.value + "\n" ;
+    suma +=  parseInt(input.value);
+    total.innerText = suma;
     
-    const input = document.getElementById("inputDato");
-
-    const parrafo = document.getElementById("resultado");
-    parrafo.innerText = "El dato ingresado es: \n" + input.value;
-
 }
 
+var suma = 0;
 
-document.getElementById("botonMostrar").onclick = mostrarDato;
+
+
+
+
+
+
+// document.getElementById("botonMostrar").onclick = mostrarDato;
